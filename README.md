@@ -1,51 +1,51 @@
-# NoticiasWeb# 📰 NoticiasWeb - Proyecto Final en JavaScript
+<div align="center">
 
-Este proyecto es una aplicación web desarrollada como proyecto final del curso de **JavaScript**. Su objetivo es mostrar noticias dinámicas y gestionarlas a través de módulos y herramientas modernas de desarrollo.
+# NoticiasWeb • Modular JavaScript News Aggregator & Webpack Pipeline
+### *Dynamic JSON Ingestion, ES Modules Bundling & High-Performance Production Optimization*
 
-## 🚀 Características principales
+[![JavaScript: ES6+](https://img.shields.io/badge/JavaScript-ES_Modules-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
+[![Webpack: 5](https://img.shields.io/badge/Bundler-Webpack_5-8DD6F9?style=for-the-badge&logo=webpack&logoColor=black)](https://webpack.js.org/)
+[![Architecture: Modular](https://img.shields.io/badge/Architecture-Modular_ESM-blue?style=for-the-badge)](https://developer.mozilla.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-- Estructura modular de código JavaScript.
-- Uso de **Webpack** para empaquetar y optimizar los recursos.
-- Lectura y renderizado de datos desde un archivo JSON (`ultima-noticia.json`).
-- Organización de scripts y funciones reutilizables.
-- Diseño responsive y escalable.
+<p align="center">
+  A modular JavaScript news reader application. Combines modular ES6 import/export architecture with a production-grade Webpack compilation pipeline to parse, filter, and render real-time news articles from JSON feeds.
+</p>
 
-## 📂 Estructura del proyecto
-proyecto_final_js/
-├── 1-modulos/ # HTML y scripts base
-│ ├── index.html
-│ ├── funciones.js
-│ └── misScripts.js
-├── 2 - Webpack/ # Configuración y archivos generados por Webpack
-│ ├── webpack.config.js
-│ ├── dist/ # Archivos compilados
-│ └── node_modules/ # Dependencias instaladas
-├── ultima-noticia.json # Fuente de datos de noticias
-├── package.json # Dependencias y scripts de npm
-└── .vscode/ # Configuración del editor (opcional)
+</div>
 
+---
 
-## 🛠️ Tecnologías utilizadas
+## 📰 Architectural Highlights
 
-- **JavaScript (ES6+)**
-- **HTML5 y CSS3**
-- **Node.js y npm**
-- **Webpack** (para empaquetar los módulos)
+- **ES6 Modular Structure (`1-modulos`):** Clean separation of API fetching, DOM builders, and presentation logic across distinct modules.
+- **Webpack Bundling Pipeline (`2 - Webpack`):** Minification, tree-shaking, and production asset packaging optimizing load speeds.
+- **Dynamic JSON News Stream:** Consumes and formats article feeds with published timestamps, categories, and author credits.
+- **Zero-Flicker DOM Hydration:** Smooth card rendering with image fallbacks and category tags.
 
-## ▶️ Cómo ejecutar el proyecto
+---
 
-1. Clona el repositorio:
-   ```bash
-   npm install
-   npm run build
-   📌 Mejoras futuras
-Integración con una API de noticias en tiempo real.
+## 🚀 Quickstart & Development
 
-Implementar un diseño más avanzado con frameworks CSS.
+```bash
+# Clone the repository
+git clone https://github.com/ExeDevCentral/NoticiasWeb.git
+cd NoticiasWeb
 
-Mejorar la gestión de estados de la aplicación.
+# Navigate to Webpack project
+cd "2 - Webpack"
 
-✍️ Autor
-Exequiel Echevarría
-GitHub | LinkedIn
-   git clone https://github.com/tu-usuario/NoticiasWeb.git
+# Install dependencies and build
+npm install
+npm run build
+
+# Open production build
+xdg-open dist/index.html
+```
+
+---
+
+## 👨‍💻 Author
+
+**Exequiel Echevarria**
+- GitHub: [@ExeDevCentral](https://github.com/ExeDevCentral)
