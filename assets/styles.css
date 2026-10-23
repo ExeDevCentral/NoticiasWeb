@@ -161,3 +161,39 @@ body {
     height: auto;
   }
 }
+
+/* Responsive Overhaul for Mobile & Tablet */
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column !important;
+        gap: 16px !important;
+    }
+    .bloque {
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        padding: 18px !important;
+    }
+    .title {
+        font-size: clamp(1.6rem, 5vw, 2.2rem) !important;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px 10px !important;
+    }
+    .bloque {
+        padding: 16px 12px !important;
+        border-radius: 12px !important;
+    }
+    .divCancion img {
+        max-width: 100% !important;
+        height: auto !important;
+        border-radius: 8px;
+    }
+    .divTiempo {
+        flex-wrap: wrap !important;
+        gap: 8px !important;
+    }
+}
